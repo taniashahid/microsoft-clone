@@ -6,42 +6,46 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
   </head>
   <body>
-    <div class="site-wrapper">
+    <div class="site-wrapper" id="site-wrapper">
        <header>
         <div class="main-header">
            <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container">
-    <a class="navbar-brand" href="#">Microsoft</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Microsoft 365</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Office</a>
-        </li>
-       
-        <li class="nav-item">
-          <a class="nav-link" href="#">Windows</a>
-        </li>
-        <li class="nav-item">
-         <a class="nav-link" href="#">Support</a>
-        </li>
-      </ul>
+      <a class="navbar-brand" href="#"><img src="./assets/imgs/microsoft.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Microsoft 365</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Office</a>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="#">Windows</a>
+          </li>
+          <li class="nav-item">
+           <a class="nav-link" href="#">Support</a>
+          </li>
+        </ul>
+    
+    
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown  mx-2">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             All Microsoft
           </a>
-          <ul class="dropdown-menu dropdown-menu-end">
+          <ul class="dropdown-menu dropdown-menu-end bg-body-tertiary py-4">
+          
             <li>
               <ul>
-                <h3>Software</h3>
+                <h5>Software</h5>
                 <li><a href="#">Windows Apps</a></li>
                 <li><a href="">AI</a></li>
                 <li><a href="">OneDrive</a></li>
@@ -53,24 +57,85 @@
             </li>
            <li>
             <ul>
-              <h3>PCs & Devices</h3>
+              <h5>PCs & Devices</h5>
               <li><a href="#">Shop Xbox</a></li>
               <li><a href="#">Accessories</a></li>
             </ul>
            </li>
+           <li>
+            <ul>
+              <h5>Entertainment</h5>
+              <li><a href="#">Xbox games</a></li>
+              <li><a href="#">PC games</a></li>
+              <li><a href="#">Windows digital games</a></li>
+            </ul>
+           </li>
+           <li>
+            <ul>
+              <h5>Bussiness</h5>
+              <li><a href="#">Microsoft Cloud</a></li>
+              <li><a href="#">Microsoft Security</a></li>
+              <li><a href="#">Azure</a></li>
+              <li><a href="#">Dynamic 365</a></li>
+              <li><a href="#">Microsoft 365 for bussiness</a></li>
+              <li><a href="#">Microsft industry</a></li>
+              <li><a href="#">Microsoft Power platform</a></li>
+              <li><a href="#">Windows 365</a></li>
+              
+            </ul>
+           </li>
+           <li>
+            <ul>
+              <h5>Developer & IT</h5>
+              <li><a href="#">Developer Center</a></li>
+              <li><a href="#">Documentation</a></li>
+              <li><a href="#">Microsoft learn</a></li>
+              <li><a href="#">Microsoft tech Community</a></li>
+              <li><a href="#">Azure Marketplace</a></li>
+              <li><a href="#">AppSource</a></li>
+              <li><a href="#">Visual Studio</a></li>
+              
+              
+            </ul>
+           </li>
+           
+           <li>
+            <ul>
+              <h5>Other</h5>
+              <li><a href="#">Free Downloads & Security</a></li>
+              <li><a href="#">Education</a></li>
+              <li><a href="#">Gift cards</a></li>
+              
+              
+              
+            </ul>
+            </li>
+           </li>
+          
+           </ul>
+          
+           </li>
+           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-search"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="bi bi-cart2"></i></a>
+            </li>
+           
+            <li class="nav-item">
+              <div class="circle">
+                <a class="nav-link" href="#"><i class="bi bi-person-circle"></i></a>
+              </div>
+          
+            </li>
+          
+            
           </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-search"></i></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><i class="bi bi-cart2"></i></a>
-        </li>
+           </ul>
+        
+          
        
-        <li class="nav-item">
-          <a class="nav-link "><i class="bi bi-person-circle"></i></a>
-        </li>
-      </ul>
 
     </div>
   </div>
@@ -84,37 +149,34 @@
               <div id="primary-carousel" class="carousel slide">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#primary-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#primary-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#primary-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#primary-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#primary-carousel" data-bs-slide-to="1" class="active" aria-label="Slide 2"></button>
+    
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="./assets/imgs/1.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-sm-block">
-                      <h5>First slide label</h5>
-                      <p>Some representative placeholder content for the first slide.</p>
+                    <img src="./assets/imgs/heroimg1.avif" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none  d-md-block">
+                      <h5>Microsoft 365</h5>
+
+                      <p>Turn your ideas into reality, stay safer online and off</p>
+                      <a href="" class="button3 bg-primary">For One Person</a>
+                      <a href="#" class="next1">For up to six people ></a>
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="./assets/imgs/2.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-sm-block">
-                      <h5>Second slide label</h5>
-                      <p>Some representative placeholder content for the second slide.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./assets/imgs/3.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-sm-block">
-                      <h5>Third slide label</h5>
-                      <p>Some representative placeholder content for the third slide.</p>
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./assets/imgs/4.png" class="d-block w-100" alt="...">
-                      <div class="carousel-caption d-none d-sm-block">
-                        <h5>fourth slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                    <img src="./assets/imgs/bling.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <div class="carousel-content">
+                        <h5>Introducing the new Bing</h5>
+                        <p>Your AI-powered copilot for the web. Ask questions.  </p>
+                          <a href="#" class="button3 bg-primary">Join the Bing preview</a>
+                          <a href="#">Learn about Image Creator in Bing ></a>
                       </div>
+
+
+                    </div>
+                  </div>
+                 
                     </div>
                   </div>
                   <button class="carousel-control-prev" type="button" data-bs-target="#primary-carousel" data-bs-slide="prev">
@@ -133,103 +195,141 @@
 
             <section class="ms-prod-wrapper py-5">
                  <div class="container">
-                  <div class="row">
-                    <div class="col-md-3">
-                      <div class="card border-0">
-                        <img src="./assets/imgs/prod-1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body px-0">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <div class="products">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <a href="">
+                        <div class="card border-0">
+                          <img src="./assets/imgs/prod-1.jpg" class="card-img-top" alt="...">
+                          <div class="card-body px-0">
+                            <h4 class="card-title">Designed for today   - and tomorrow</h4>
+                            <p class="card-text">The next-generation of games.Your goals.Friends and family.Windows 11 was made you bring to closer to everything you love.</p>
+                            <a href="#" class=" btn px-0">See if your PC is ready ></a>
+                          </div>
                         </div>
-                      </div>
-                    </div> <!-- /.col-md-3 -->
-                    <div class="col-md-3">
-                      <div class="card border-0">
-                        <img src="./assets/imgs/prod-2.webp" class="card-img-top" alt="...">
-                        <div class="card-body px-0">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </a>
+                      </div> <!-- /.col-md-3 -->
+                      <div class="col-md-3">
+                        <a href="">
+                        <div class="card border-0">
+                          <img src="./assets/imgs/prod-2.webp" class="card-img-top" alt="...">
+                          <div class="card-body px-0">
+                            <h5 class="card-title">Microsoft Edge</h5>
+                            <p class="card-text">World-class performance with more privacy, more productivity and more value while you browse.</p>
+                            <a href="#" class="btn px-0">Download now ></a>
+                          </div>
                         </div>
-                      </div>
-                    </div> <!-- /.col-md-3 -->
-                    <div class="col-md-3">
-                      <div class="card border-0">
-                        <img src="./assets/imgs/prod-3.webp" class="card-img-top" alt="...">
-                        <div class="card-body px-0">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </a>
+                      </div> <!-- /.col-md-3 -->
+                      <div class="col-md-3">
+                        <a href="">
+                        <div class="card border-0">
+                          <img src="./assets/imgs/prod-3.webp" class="card-img-top" alt="...">
+                          <div class="card-body px-0">
+                            <h5 class="card-title">Microsoft OneDrive</h5>
+                            <p class="card-text">Save your files and photos to OneDrive and access them from any device, anywhere.</p>
+                            <a href="#" class="btn px-0">Learn more ></a>
+                          </div>
                         </div>
-                      </div>
-                    </div>  <!-- /.col-md-3 -->
-                    <div class="col-md-3">
-                      <div class="card border-0">
-                        <img src="./assets/imgs/prod-4.webp" class="card-img-top" alt="...">
-                        <div class="card-body px-0">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </a>
+                      </div>  <!-- /.col-md-3 -->
+                      <div class="col-md-3">
+                        <a href="">
+                        <div class="card border-0">
+                          <img src="./assets/imgs/prod-4.webp" class="card-img-top" alt="...">
+                          <div class="card-body px-0">
+                            <h5 class="card-title">OneNote</h5>
+                            <p class="card-text">Organise your notes and your life.</p>
+                            <a href="#" class="btn px-0">Learn more ></a>
+                          </div>
                         </div>
-                      </div>
-                    </div>   <!-- /.col-md-3 -->
+                        </a>
+                      </div>   <!-- /.col-md-3 -->
+                    </div>
+                   </div>
+                  </div><!-- products -->
+                 
                   </div>
                  </div>
             </section> <!-- ms-prod-wrapper -->
 
             <section class="ms-promotion-wrapper">
               <div class="container">
-                <img src="./assets/imgs/promotion.webp" class="img-fluid" alt="...">
-              </div>
+                  <div class="carousel-inner">
+                   <a href="">
+                   <div class="carousel-item active">
+                    <img src="./assets/imgs/promotion.webp" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Outlook for iOS and  Android</h5>
+                      <p>Connect.Organise.Get things done.</p>
+                      <a href="#" class="bg-primary">Download now</a>
+                      </div>
+                   </div>
+                   </a>
+                  </div> <!-- carousel-inner -->
+
+                
+                  
+                </div>
+                
             </section>  <!-- ms-promotion-wrapper -->
 
             <section class="microsoft-team py-5">
               <div class="container">
-                <h2>For bussiness</h2>
-                <div class="row">
-                  <div class="col-md-3">
-                    <div class="card border-0">
-                      <img src="./assets/imgs/microsoft-team1.webp" class="card-img-top" alt="...">
-                      <div class="card-body px-0">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="business-team">
+                  <h2>For business</h2>
+                  <div class="row">
+                    <div class="col-md-3">
+                      <a href="">
+                      <div class="card border-0">
+                        <img src="./assets/imgs/microsoft-team1.webp" class="card-img-top" alt="...">
+                        <div class="card-body  px-0">
+                          <h4 class="card-title">Get Microsoft Teams for free</h4>
+                          <p class="card-text">Online meetings,chat and shared cloud storage-all in one place.</p>
+                          <a href="#" class="btn px-0">Sign up for free ></a>
+                        </div>
                       </div>
-                    </div>
-                  </div> <!-- /.col-md-3 -->
-                  <div class="col-md-3">
-                    <div class="card border-0">
-                      <img src="./assets/imgs/team2.webp" class="card-img-top" alt="...">
-                      <div class="card-body px-0">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </a>
+                    </div> <!-- /.col-md-3 -->
+                    <div class="col-md-3">
+                       <a href="">
+                      <div class="card border-0">
+                        <img src="./assets/imgs/team2.webp"class="card-img-top" alt="...">
+                        <div class="card-body px-0">
+                          <h4 class="card-title">Try Microsoft 365 for free</h4>
+                          <p class="card-text">Get Microsoft Teams,secure cloud storage and premium apps across devices with a free one-month Microsoft 365 Business Standard trial.</p>
+                          <a href="#" class="btn px-0">Start your free trial ></a>
+                        </div>
                       </div>
-                    </div>
-                  </div> <!-- /.col-md-3 -->
-                  <div class="col-md-3">
-                    <div class="card border-0">
-                      <img src="./assets/imgs/team3.webp" class="card-img-top" alt="...">
-                      <div class="card-body px-0">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </a>
+                    </div> <!-- /.col-md-3 -->
+                    <div class="col-md-3">
+                      <a href="">
+                      <div class="card  border-0">
+                        <img src="./assets/imgs/team3.webp" class="card-img-top" alt="...">
+                        <div class="card-body px-0">
+                          <h4 class="card-title">Welcome to your Windows 365 Cloud PC</h4>
+                          <p class="card-text">Securely stream your Windows experience from the Microsoft cloud to any device.</p>
+                          <a href="#" class="btn px-0">Get it today ></a>
+                        </div>
                       </div>
-                    </div>
-                  </div>  <!-- /.col-md-3 -->
-                  <div class="col-md-3">
-                    <div class="card border-0">
-                      <img src="./assets/imgs/team4.webp" class="card-img-top" alt="...">
-                      <div class="card-body px-0">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </a>
+                    </div>  <!-- /.col-md-3 -->
+                    <div class="col-md-3">
+                      <a href="">
+                      <div class="card border-0">
+                        <img src="./assets/imgs/prod-4.webp" class="card-img-top" alt="...">
+                        <div class="card-body px-0">
+                          <h4 class="card-title">Visual Studio 2022</h4>
+                          <p class="card-text">Get the most comprehansive IDE for .NET and C++ developers on Windows for building web,cloud,desktop,mobile apps , services and games.</p>
+                          <a href="#" class="btn px-0">Download Visual Studio 2022 ></a>
+                        </div>
                       </div>
-                    </div>
-                  </div>   <!-- /.col-md-3 -->
+                      </a>
+                    </div>   <!-- /.col-md-3 -->
+                
+               </div>   <!-- business-team -->
                 </div>
-               </div>
             </section> <!-- microsoft-team -->
 
             <section class="social-icons">
@@ -241,7 +341,7 @@
                       <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-3">
                         <li class="nav-item">
                           <a class="nav-link active" aria-current="page" href="#">Follow Microsoft</a>
                         </li>
@@ -262,12 +362,87 @@
                 </nav>
                </div>
             </section>  <!-- social-icons -->
+
+            <section class="back-btn py-5">
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                  <a href="#site-wrapper" class="btn bg-body-tertiary me-md-2">Back to top</a>
+
+                </div>
+            </section>
         </div><!-- main-wrapper -->
        </main>
          
        <footer>
         <div class="main-footer">
-          
+          <section class="footer-inner bg-body-tertiary py-5 ">
+            <div class="container">
+              <div class="ms-info">
+               <div class="row">
+                 <div class="col-md-2 ">
+                  <ul>
+                    <li><a href="#" class="heading">Microsoft Store</a></li>
+                    <li><a href="#">Account profile</a></li>
+                    <li><a href="#">Download Center</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Order tracking</a></li>
+                  </ul>
+                 </div>
+                 <div class="col-md-2">
+                  <ul>
+                    <li><a href="#" class="heading">Education</a></li>
+                    <li><a href="#">Microsoft in education</a></li>
+                    <li><a href="#">Devices for education</a></li>
+                    <li><a href="#">Microsoft Teams for Education</a></li>
+                    <li><a href="#">Microsft 365 Education</a></li>
+                    <li><a href="#">Office Education</a></li>
+                    <li><a href="#">Educator training and development</a></li>
+                    <li><a href="#">Deals for students and parents</a></li>
+                    <li><a href="#">Azure for students</a></li>
+                  </ul>
+                 </div>
+                 <div class="col-md-2">
+                  <ul>
+                    <li><a href="#" class="heading">Business</a></li>
+                    <li><a href="#">Microsoft Cloud</a></li>
+                    <li><a href="#">Microsoft Security</a></li>
+                    <li><a href="#">Azure</a></li>
+                    <li><a href="#">Dynamic 365</a></li>
+                    <li><a href="#">Microsoft 365</a></li>
+                    <li><a href="#">Microsoft Advertising</a></li>
+                    <li><a href="#">Microsoft Industry</a></li>
+                    <li><a href="#">Microsoft Teams</a></li>
+                  </ul>
+                 </div>
+                 <div class="col-md-2">
+                  <ul>
+                    <li><a href="#" class="heading">Developer & IT</a></li>
+                    <li><a href="#">Developer Center</a></li>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Microsoft Learn</a></li>
+                    <li><a href="#">Microsoft Tech Community</a></li>
+                    <li><a href="#">Azure Marketplace</a></li>
+                    <li><a href="#">AppSource</a></li>
+                    <li><a href="#">Microsoft Power Platform</a></li>
+                    <li><a href="#">Visual Studio</a></li>
+                  </ul>
+                 </div>
+                 <div class="col-md-2">
+                  <ul>
+                    <li><a href="#" class="heading">Company</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">About Microsoft</a></li>
+                    <li><a href="#">Company news</a></li>
+                    <li><a href="#">Privacy at Microsoft</a></li>
+                    <li><a href="#">Investors</a></li>
+                    <li><a href="#">Sustainability</a></li>
+
+                  </ul>
+                 </div>
+               </div> <!-- row -->
+              </div> <!-- ms-info -->
+            </div><!-- container -->
+
+          </section>  <!-- footer-inner -->
         </div> <!-- main-footer -->
        </footer>
     </div><!-- site-wrapper -->
