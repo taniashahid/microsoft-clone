@@ -11,11 +11,17 @@ html{
 .navbar-brand  img{
     width: 100px;
     height: 24px;
+    float: left;
+    outline-offset: -2px;
+    
+
 }
 
+.collapse .navbar-collapse .nav-item{
+    align-items: center;
+}
 
-
-.navbar-nav{
+ .navbar-nav {
     display: flex;
     align-items: center;
 }
@@ -27,66 +33,69 @@ html{
     font-size: 28px;
 }
 
-.dropdown-menu{
-    width: 500px;
-    
-
-    
-}
-
-
-
-.dropdown-menu ul li{
+.dropdown-menu ul{
     list-style: none;
-    
+    padding: 6px;
 }
-.dropdown-menu a{
-   text-decoration: none;
-   color: black;
+
+.dropdown-menu li:first-child a{
+    
+    font-size: 1.2em;
+}
+
+.dropdown-menu.show{
+    display: flex;
 }
 
 .carousel{
     position: relative;
+
 }
 
-.carousel-indicators{
-    margin-bottom: -3rem;
+.carousel-caption{
+    bottom: 50%;
+    transform: translateY(50%);
+    left: 10%;
+}
+ .carousel-indicators{
+    margin-bottom: -2rem;
+
+    
     
     
 }
 
 .carousel-indicators .active{
     background-color: black !important;
+    
 }
 
 .carousel-indicators [data-bs-target] {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-
+   
     
     
  }
 
 .carousel-indicators {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin-right: 15%;
-    margin-left: 15%;
+   
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        margin-right: 15%;
+        margin-left: 15%;
+        padding: 0px;
 }
+        
 
 
 
 
 .carousel-indicators [data-bs-target] {
     box-sizing: content-box;
-    flex: 0 1 auto;
    
     margin-right: 3px;
     margin-left: 3px;
@@ -97,16 +106,31 @@ html{
     border: 0;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    opacity: .5;
     transition: opacity .6s ease;
 }
  
+.carousel-control-next, .carousel-control-prev {
+    top: unset;
+    bottom: unset;
+    margin: 0 auto;
 
+    
+    
+   
+    
+
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: black;
+    
+}
 
 
 .ms-info .heading{
     font-size: 18px;
     font-weight: bold;
+    color: #000;
     
 }
 
@@ -118,8 +142,23 @@ html{
 
 .ms-info ul li a{
     text-decoration: none;
-    color: black;
+    color: darkgray;
 }
+
+.ms-info a:hover{
+    text-decoration: underline;
+}
+
+/* .card{
+    overflow: hidden;
+}
+
+.card img{
+    transition: all 2s ease-in-out;
+}
+.card:hover {
+    transform: scale(.7);
+} */
 
 
 .card .card-body a{
@@ -134,53 +173,70 @@ html{
     color: black;
 }
 
-.btn{
+.card-body a{
     color: dodgerblue;
     font-size: 18px;
 }
 
+
+
 .business-team .card-title{
     color: black;
+}
+
+.card-body .button4:hover{
+    text-decoration: underline;
+    
+
 }
 
 .carousel-inner{
     position: relative;
 }
 
-
+.carousel-caption a{
+    text-decoration: none;
+    color: #fff;
+}
 
 
 .carousel-caption{
     position: absolute;
     top: 50%;
-    right: 50%;
-    transform: translatey(-50%);
+     right: 50%;
+    transform: translateY(-50%);
 }
 
 .carousel-caption h5{
-   padding: 0 6px;
-   font-size: 28px;
-   font-family: sans-serif;
-   margin-left: 24px;
-   color: black;
+  font-size: 2rem;
+  
 }
 
 .carousel-caption p{
-   color: black;
-   margin-bottom: 20px;
+    padding: 12px 0;
    
 }
 
-.carousel-caption .next1{
-    color: black;
+.carousel-caption .button3 {
+    font-weight: 600;
+    position: relative;
+    width: fit-content;
+    color: #fff;
+    
+    
 }
 
-.carousel-caption a{
+
+
+
+.carousel-caption .next1{
+    color: white;
     text-decoration: none;
-    color: #fff;
-    padding: 8px 22px;
-    margin-top: 12px;
 }
+
+
+
+
 
 .carousel-content h5{
     color: #fff;
