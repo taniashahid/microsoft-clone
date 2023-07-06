@@ -311,13 +311,18 @@ html{
 /* // `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
    
-   
+   .navbar-nav{
+    display: none;
+   }
+
     
  }
 
 /* // `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) { 
-   
+   .navbar-nav{
+    display: none;
+   }
 }
 
 /* // `xl` applies to large devices (desktops, less than 1200px) */
