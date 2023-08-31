@@ -41,14 +41,17 @@ font-family: 'Roboto', sans-serif;
 .dropdown-menu ul{
     list-style: none;
     padding: 34px;
+    
 }
+
+
 
 .dropdown-menu li{
     font-size: 14px;
-    margin: 14px 0px;
+    margin: 14px 0;
 }
 
-.dropdown-menu li:hover{
+.dropdown-menu ul:hover{
     text-decoration: underline;
 }
 
@@ -60,12 +63,13 @@ font-family: 'Roboto', sans-serif;
 
 .dropdown-menu li:first-child a{
     
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
+    font-size: 20px;
 }
 
-.dropdown-menu.show{
+ .dropdown-menu.show{
     display: flex;
-}
+} 
 
 .carousel .wrapper{
     position: relative;
@@ -86,10 +90,10 @@ font-family: 'Roboto', sans-serif;
 
 
 
- .carousel-indicators{
+.carousel-indicators{
     margin-bottom: -2rem;
 
-    
+     
     
     
 }
@@ -100,15 +104,14 @@ font-family: 'Roboto', sans-serif;
 }
 
 .carousel-indicators [data-bs-target] {
-    width: 10px;
+      width: 10px;
     height: 10px;
-    border-radius: 50%;
-   
+    border-radius: 50%; 
+     
     
-    
- }
+ } 
 
-.carousel-indicators {
+   .carousel-indicators {
    
         position: absolute;
         right: 0px;
@@ -118,7 +121,7 @@ font-family: 'Roboto', sans-serif;
         margin-left: 15%;
         padding: 0px;
 }
-        
+         
 
 
 
@@ -136,33 +139,71 @@ font-family: 'Roboto', sans-serif;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     transition: opacity .6s ease;
+    background-color: black !important;
 }
- 
-.carousel-control-next, .carousel-control-prev {
-    top: unset;
+
+.carousel-indicators .active {
+    background-color: black !important;
+
+}
+   .carousel-control-next, .carousel-control-prev {
+     top: unset;
     bottom: unset;
     margin: 0 auto;
     margin-left: 34%;
     margin-right: 34%;
+     
     
     
-   
+ }
     
     
    
     
 
-}
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
-    background-color: black;
+
+ /* .carousel-control-next-icon, .carousel-control-prev-icon {
+      background-color: black; 
     position: absolute;
     top: 7px;
     margin-bottom: 7px;
     
+     
     
+ 
     
-    
+}   */
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    color: black;
+    position: absolute;
+    top: 4px;
+    margin-bottom: 7px;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../imgs/right-arrow.png);
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../imgs/left-arrow.png);
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    position: absolute;
+    top: 4px;
+}
+
+.carousel-control-next[data-bs-target],
+.carousel-control-prev[data-bs-target] {
+    border: none !important;
 }
 
 
